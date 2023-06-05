@@ -32,4 +32,26 @@
 #     print("Hop on!")
 
 
+# username = "lucyg"
+# password = "happyplace2!"
 
+# if username != "lucyg":
+#     print("Access denied.")
+# elif password != "happyplace2!":
+#     print("Access denied.")
+# else:
+#     print("Logged in successfully!")
+
+
+
+# email = input("Enter your email address: ")
+
+# if "@" in email and "." in email:
+#     print("Valid email address.")
+# else:
+#     print("Invalid email address.")
+
+
+
+if "False":
+    print("A strange game. The only winning move is not to play.")
