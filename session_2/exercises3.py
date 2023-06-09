@@ -61,17 +61,96 @@
 
 
 
-a = [1, 2, 3]
-b = [4, 5, 6]
-c = [7, 8, 9]
-d = []
-e = []
+# a = [1, 2, 3]
+# b = [4, 5, 6]
+# c = [7, 8, 9]
+# d = []
+# e = []
 
-d = [a, b, c]  # Assigning a list of lists to d
+# d = [a, b, c]  # Assigning a list of lists to d
 
-print(d)  # Output: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# print(d)  # Output: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-a.insert(0, b)  # Inserting list b at index 0 in list a
-a.insert(2, c)  # Inserting list c at index 2 in list a
+# a.insert(0, b)  # Inserting list b at index 0 in list a
+# a.insert(2, c)  # Inserting list c at index 2 in list a
 
-print(a)  # Output: [[4, 5, 6], 1, [7, 8, 9], 2, 3]
+# print(a)  # Output: [[4, 5, 6], 1, [7, 8, 9], 2, 3]
+
+
+
+# #Create a range
+# my_range = range(0, 20, 2)
+
+# #Convert the range to a list
+# my_list = list(my_range)
+
+# #print the list
+# print(my_list)
+
+
+# for num in range (27):
+#     print("Check it out now")
+#     print("The funk soul brother")
+#     print("Right about now")
+#     print("The funk soul brother")
+#     print("...")
+
+
+# name = "LOLA"
+
+# print(name)
+
+# for letter in name:
+#     print(letter)
+
+# print(name)
+
+
+# enter_number = input("Enter a number: ")
+# count = 0
+
+# while enter_number != "":
+#     count += int(enter_number)
+#     enter_number = input("Enter another number: ")
+# print(sum)
+
+
+# enter_number = int(input("Enter a number: "))
+# odd_numbers = []
+# count = 0
+# while count <= enter_number:
+#     if count % 2 != 0:
+#         odd_numbers.append(count)
+#     count += 1    
+# print(odd_numbers)
+
+
+# print("I'm thinking of a number")
+# my_number = 27
+
+# while True:
+#     enter_number = int(input("What number is it: "))
+#     if enter_number < my_number:
+#         print("Oooh, too low! Guess again: ")
+#     elif enter_number > my_number:
+#         print("Oooh, too high! Guess again: ")
+#     else:
+#         print("You guessed it!")
+#         break
+
+
+
+# enter_number = int(input("Enter a number: "))
+
+# for guess in range(1, 11):
+#     print(enter_number, "x", guess, "=", enter_number * guess)
+
+
+
+enter_number = int(input("Enter a number: "))
+sum_of_numbers = 0
+
+for number in range(enter_number + 1):
+    sum_of_numbers += number
+
+print(sum_of_numbers)
